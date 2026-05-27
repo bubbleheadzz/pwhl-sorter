@@ -1,0 +1,30 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    max-width: none;
+  }
+
+  header {
+    width: 100%;
+    max-width: none;
+    margin: 20px 0 0 0;
+    border-width: 5px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 150%;
+  }
+
+  #instructions {
+    font-size: 0.9em;
+  }
+}
