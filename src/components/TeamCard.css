@@ -1,0 +1,39 @@
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.team-name {
+  height: auto;
+  min-height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  white-space: pre-line;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.team-logo {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .team-card {
+    gap: 5px;
+  }
+
+  .team-name {
+    font-size: 0.8em;
+  }
+
+  .team-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
