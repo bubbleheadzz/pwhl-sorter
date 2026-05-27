@@ -1,0 +1,194 @@
+[
+  {
+    "id": 0,
+    "name": "Anaheim Ducks",
+    "displayName": "Anaheim\nDucks",
+    "logo": "nhlteamlogos/Anaheim_Ducks.png"
+  },
+  {
+    "id": 1,
+    "name": "Boston Bruins",
+    "displayName": "Boston\nBruins",
+    "logo": "nhlteamlogos/Boston_Bruins.png"
+  },
+  {
+    "id": 2,
+    "name": "Buffalo Sabres",
+    "displayName": "Buffalo\nSabres",
+    "logo": "nhlteamlogos/Buffalo_Sabres.png"
+  },
+  {
+    "id": 3,
+    "name": "Calgary Flames",
+    "displayName": "Calgary\nFlames",
+    "logo": "nhlteamlogos/Calgary_Flames.png"
+  },
+  {
+    "id": 4,
+    "name": "Carolina Hurricanes",
+    "displayName": "Carolina\nHurricanes",
+    "logo": "nhlteamlogos/Carolina_Hurricanes.png"
+  },
+  {
+    "id": 5,
+    "name": "Chicago Blackhawks",
+    "displayName": "Chicago\nBlackhawks",
+    "logo": "nhlteamlogos/Chicago_Blackhawks.png"
+  },
+  {
+    "id": 6,
+    "name": "Colorado Avalanche",
+    "displayName": "Colorado\nAvalanche",
+    "logo": "nhlteamlogos/Colorado_Avalanche.png"
+  },
+  {
+    "id": 7,
+    "name": "Columbus Blue Jackets",
+    "displayName": "Columbus\nBlue Jackets",
+    "logo": "nhlteamlogos/Columbus_Blue_Jackets.png"
+  },
+  {
+    "id": 8,
+    "name": "Dallas Stars",
+    "displayName": "Dallas\nStars",
+    "logo": "nhlteamlogos/Dallas_Stars.png"
+  },
+  {
+    "id": 9,
+    "name": "Detroit Red Wings",
+    "displayName": "Detroit\nRed Wings",
+    "logo": "nhlteamlogos/Detroit_Red_Wings.png"
+  },
+  {
+    "id": 10,
+    "name": "Edmonton Oilers",
+    "displayName": "Edmonton\nOilers",
+    "logo": "nhlteamlogos/Edmonton_Oilers.png"
+  },
+  {
+    "id": 11,
+    "name": "Florida Panthers",
+    "displayName": "Florida\nPanthers",
+    "logo": "nhlteamlogos/Florida_Panthers.png"
+  },
+  {
+    "id": 12,
+    "name": "Los Angeles Kings",
+    "displayName": "Los Angeles\nKings",
+    "logo": "nhlteamlogos/Los_Angeles_Kings.png"
+  },
+  {
+    "id": 13,
+    "name": "Minnesota Wild",
+    "displayName": "Minnesota\nWild",
+    "logo": "nhlteamlogos/Minnesota_Wild.png"
+  },
+  {
+    "id": 14,
+    "name": "Montreal Canadiens",
+    "displayName": "Montreal\nCanadiens",
+    "logo": "nhlteamlogos/Montreal_Canadiens.png"
+  },
+  {
+    "id": 15,
+    "name": "Nashville Predators",
+    "displayName": "Nashville\nPredators",
+    "logo": "nhlteamlogos/Nashville_Predators.png"
+  },
+  {
+    "id": 16,
+    "name": "New Jersey Devils",
+    "displayName": "New Jersey\nDevils",
+    "logo": "nhlteamlogos/New_Jersey_Devils.png"
+  },
+  {
+    "id": 17,
+    "name": "New York Islanders",
+    "displayName": "New York\nIslanders",
+    "logo": "nhlteamlogos/New_York_Islanders.png"
+  },
+  {
+    "id": 18,
+    "name": "New York Rangers",
+    "displayName": "New York\nRangers",
+    "logo": "nhlteamlogos/New_York_Rangers.png"
+  },
+  {
+    "id": 19,
+    "name": "Ottawa Senators",
+    "displayName": "Ottawa\nSenators",
+    "logo": "nhlteamlogos/Ottawa_Senators.png"
+  },
+  {
+    "id": 20,
+    "name": "Philadelphia Flyers",
+    "displayName": "Philadelphia\nFlyers",
+    "logo": "nhlteamlogos/Philadelphia_Flyers.png"
+  },
+  {
+    "id": 21,
+    "name": "Pittsburgh Penguins",
+    "displayName": "Pittsburgh\nPenguins",
+    "logo": "nhlteamlogos/Pittsburgh_Penguins.png"
+  },
+  {
+    "id": 22,
+    "name": "San Jose Sharks",
+    "displayName": "San Jose\nSharks",
+    "logo": "nhlteamlogos/San_Jose_Sharks.png"
+  },
+  {
+    "id": 23,
+    "name": "Seattle Kraken",
+    "displayName": "Seattle\nKraken",
+    "logo": "nhlteamlogos/Seattle_Kraken.png"
+  },
+  {
+    "id": 24,
+    "name": "St. Louis Blues",
+    "displayName": "St. Louis\nBlues",
+    "logo": "nhlteamlogos/St_Louis_Blues.png"
+  },
+  {
+    "id": 25,
+    "name": "Tampa Bay Lightning",
+    "displayName": "Tampa Bay\nLightning",
+    "logo": "nhlteamlogos/Tampa_Bay_Lightning.png"
+  },
+  {
+    "id": 26,
+    "name": "Toronto Maple Leafs",
+    "displayName": "Toronto\nMaple Leafs",
+    "logo": "nhlteamlogos/Toronto_Maple_Leafs.png"
+  },
+  {
+    "id": 27,
+    "name": "Utah Mammoth",
+    "displayName": "Utah\nMammoth",
+    "logo": "nhlteamlogos/Utah_Mammoth.png"
+  },
+  {
+    "id": 28,
+    "name": "Vancouver Canucks",
+    "displayName": "Vancouver\nCanucks",
+    "logo": "nhlteamlogos/Vancouver_Canucks.png"
+  },
+  {
+    "id": 29,
+    "name": "Vegas Golden Knights",
+    "displayName": "Vegas\nGolden Knights",
+    "logo": "nhlteamlogos/Vegas_Golden_Knights.png"
+  },
+  {
+    "id": 30,
+    "name": "Washington Capitals",
+    "displayName": "Washington\nCapitals",
+    "logo": "nhlteamlogos/Washington_Capitals.png"
+  },
+  {
+    "id": 31,
+    "name": "Winnipeg Jets",
+    "displayName": "Winnipeg\nJets",
+    "logo": "nhlteamlogos/Winnipeg_Jets.png"
+  }
+]
