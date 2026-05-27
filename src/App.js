@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>NHL TEAM SORTER</h1>
+        <h1>PWHL TEAM SORTER</h1>
         <div id="instructions">
           Pick which team you prefer in each matchup to get an accurate list of your
-          favourite teams in the NHL.
+          favourite teams in the PWHL.
           <p>
             <u>Note: The more often you hit 'It's a tie', the less accurate your results.</u>
           </p>
@@ -26,7 +26,7 @@ function App() {
         <p>
           <small>
             <br />
-            <a href="http://edthekraken.carrd.co/">built by edthekraken</a>
+            // <a href="http://edthekraken.carrd.co/">built by edthekraken</a>
           </small>
         </p>
       </footer>
