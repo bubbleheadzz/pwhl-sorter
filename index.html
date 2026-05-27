@@ -12,7 +12,7 @@
  
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 
-<title>edthekraken's NHL Sorter</title>
+<title>PWHL Sorter</title>
  
 <script type="text/javascript">
  
@@ -20,38 +20,18 @@
  
 var namMember = new Array(
  
-"<div class =\"teamname\">Anaheim<br /> Ducks</div><br /><img width=\"100px\" src=\"nhlteamlogos/Anaheim_Ducks.png\">",
-"<div class =\"teamname\">Boston<br /> Bruins</div><br /><img width=\"100px\" src=\"nhlteamlogos/Boston_Bruins.png\">",
-"<div class =\"teamname\">Buffalo<br /> Sabres</div><br /><img width=\"100px\" src=\"nhlteamlogos/Buffalo_Sabres.png\">",
-"<div class =\"teamname\">Calgary<br /> Flames</div><br /><img width=\"100px\" src=\"nhlteamlogos/Calgary_Flames.png\">",
-"<div class =\"teamname\">Carolina<br /> Hurricanes</div><br /><img width=\"100px\" src=\"nhlteamlogos/Carolina_Hurricanes.png\">",
-"<div class =\"teamname\">Chicago<br /> Blackhawks</div><br /><img width=\"100px\" src=\"nhlteamlogos/Chicago_Blackhawks.png\">",
-"<div class =\"teamname\">Colorado<br /> Avalanche</div><br /><img width=\"100px\" src=\"nhlteamlogos/Colorado_Avalanche.png\">",
-"<div class =\"teamname\">Columbus<br /> Blue Jackets</div><br /><img width=\"100px\" src=\"nhlteamlogos/Columbus_Blue_Jackets.png\">",
-"<div class =\"teamname\">Dallas<br /> Stars</div><br /><img width=\"100px\" src=\"nhlteamlogos/Dallas_Stars.png\">",
-"<div class =\"teamname\">Detroit<br /> Red Wings</div><br /><img width=\"100px\" src=\"nhlteamlogos/Detroit_Red_Wings.png\">",
-"<div class =\"teamname\">Edmonton<br /> Oilers</div><br /><img width=\"100px\" src=\"nhlteamlogos/Edmonton_Oilers.png\">",
-"<div class =\"teamname\">Florida<br /> Panthers</div><br /><img width=\"100px\" src=\"nhlteamlogos/Florida_Panthers.png\">",
-"<div class =\"teamname\">Los Angeles<br /> Kings</div><br /><img width=\"100px\" src=\"nhlteamlogos/Los_Angeles_Kings.png\">",
-"<div class =\"teamname\">Minnesota<br /> Wild</div><br /><img width=\"100px\" src=\"nhlteamlogos/Minnesota_Wild.png\">",
-"<div class =\"teamname\">Montreal<br /> Canadiens</div><br /><img width=\"100px\" src=\"nhlteamlogos/Montreal_Canadiens.png\">",
-"<div class =\"teamname\">Nashville<br /> Predators</div><br /><img width=\"100px\" src=\"nhlteamlogos/Nashville_Predators.png\">",
-"<div class =\"teamname\">New Jersey<br /> Devils</div><br /><img width=\"100px\" src=\"nhlteamlogos/New_Jersey_Devils.png\">",
-"<div class =\"teamname\">New York<br /> Islanders</div><br /><img width=\"100px\" src=\"nhlteamlogos/New_York_Islanders.png\">",
-"<div class =\"teamname\">New York<br /> Rangers</div><br /><img width=\"100px\" src=\"nhlteamlogos/New_York_Rangers.png\">",
-"<div class =\"teamname\">Ottawa<br /> Senators</div><br /><img width=\"100px\" src=\"nhlteamlogos/Ottawa_Senators.png\">",
-"<div class =\"teamname\">Philadelphia<br /> Flyers</div><br /><img width=\"100px\" src=\"nhlteamlogos/Philadelphia_Flyers.png\">",
-"<div class =\"teamname\">Pittsburgh<br /> Penguins</div><br /><img width=\"100px\" src=\"nhlteamlogos/Pittsburgh_Penguins.png\">",
-"<div class =\"teamname\">San Jose<br /> Sharks</div><br /><img width=\"100px\" src=\"nhlteamlogos/San_Jose_Sharks.png\">",
-"<div class =\"teamname\">Seattle<br /> Kraken</div><br /><img width=\"100px\" src=\"nhlteamlogos/Seattle_Kraken.png\">",
-"<div class =\"teamname\">St. Louis<br /> Blues</div><br /><img width=\"100px\" src=\"nhlteamlogos/St_Louis_Blues.png\">",
-"<div class =\"teamname\">Tampa Bay<br /> Lightning</div><br /><img width=\"100px\" src=\"nhlteamlogos/Tampa_Bay_Lightning.png\">",
-"<div class =\"teamname\">Toronto<br /> Maple Leafs</div><br /><img width=\"100px\" src=\"nhlteamlogos/Toronto_Maple_Leafs.png\">",
-"<div class =\"teamname\">Utah<br /> Mammoth</div><br /><img width=\"100px\" src=\"nhlteamlogos/Utah_Mammoth.png\">",
-"<div class =\"teamname\">Vancouver<br /> Canucks</div><br /><img width=\"100px\" src=\"nhlteamlogos/Vancouver_Canucks.png\">",
-"<div class =\"teamname\">Vegas<br /> Golden Knights</div><br /><img width=\"100px\" src=\"nhlteamlogos/Vegas_Golden_Knights.png\">",
-"<div class =\"teamname\">Washington<br /> Capitals</div><br /><img width=\"100px\" src=\"nhlteamlogos/Washington_Capitals.png\">",
-"<div class =\"teamname\">Winnipeg<br /> Jets</div><br /><img width=\"100px\" src=\"nhlteamlogos/Winnipeg_Jets.png\">",
+"<div class =\"teamname\">Boston<br /> Fleet</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Boston_Fleet.png\">",
+"<div class =\"teamname\">Detroit<br /> PWHL</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Detroit_PWHL.png\">",
+"<div class =\"teamname\">Hamilton<br /> PWHL</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Hamilton_PWHL.png\">",
+"<div class =\"teamname\">Las Vegas<br /> PWHL</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/LasVegas_PWHL.png\">",
+"<div class =\"teamname\">Minnesota<br /> Frost</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Minnesota_Frost.png\">",
+"<div class =\"teamname\">Montreal<br /> Victoire</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Montreal_Victoire.png\">",
+"<div class =\"teamname\">New York<br /> Sirens</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/NewYork_Sirens.png\">",
+"<div class =\"teamname\">Ottawa<br /> Charge</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Ottawa_Charge.png\">",
+"<div class =\"teamname\">San Jose<br /> PWHL</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/SanJose_PWHL.png\">",
+"<div class =\"teamname\">Seattle<br /> Torrent</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Seattle_Torrent.png\">",
+"<div class =\"teamname\">Toronto<br /> Sceptres</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Toronto_Sceptres.png\">",
+"<div class =\"teamname\">Vancouver<br /> Goldeneyes</div><br /><img width=\"100px\" src=\"pwhlTeamLogos/Vancouver_Goldeneyes.png\">"
  
  
 );
