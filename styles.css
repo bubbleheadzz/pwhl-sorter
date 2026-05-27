@@ -1,0 +1,148 @@
+/* Main styles */
+body {
+  margin: 0 auto;
+  width: 500px;
+  background: #000000;
+  color: #ffffff;
+  font: 12px/1.4em 'courier';
+  text-shadow: 0.133rem 0.133rem 0.125rem #191818;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+header {
+  font: 12px/1.4em 'courier';
+  text-shadow: 0.133rem 0.133rem 0.125rem #191818;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 10px 5px;
+  border: 10px solid #330000;
+  background: #940707;
+  width: 480px;
+  min-width: 350px;
+  margin: 50px auto 0 auto;
+}
+
+#instructions {
+  width: calc(450px - 70px);
+  margin: 15px auto 0 auto;
+}
+
+#mainTable {
+  font: 12px/1.4em 'courier new';
+  text-shadow: 0.133rem 0.133rem 0.125rem #191818;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+  border: 10px solid #330000;
+  background: #940707;
+  width: 100%;
+  min-width: 350px;
+  padding-bottom: 20px;
+  margin: 30px auto 30px auto;
+  min-width: min-content;
+  table-layout: fixed;
+}
+
+.teamname {
+  height: min-content;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#leftField {
+  font-size: 13px;
+  height: 160px;
+  border: 0px solid #330000;
+  cursor: pointer;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+
+#rightField {
+  font-size: 13px;
+  border: 0px solid #330000;
+  cursor: pointer;
+  vertical-align: baseline;
+  font-weight: bold;
+  height: 160px;
+}
+
+.middleField {
+  width: 150px !important;
+  border-spacing: 2px 5px;
+  cursor: pointer;
+}
+
+#tie {
+  border: 1px solid #330000;
+  height: 50px;
+  vertical-align: middle;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#back {
+  border: 1px solid #330000;
+  height: 50px;
+  vertical-align: middle;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#resultField {
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
+  display: block;
+}
+
+#resultField img {
+  display: none;
+}
+
+#resultField br {
+  display: none;
+}
+
+#results {
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 120%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#results td {
+  border: 1px solid #000;
+  padding: 5px;
+  text-align: center;
+}
+
+#results th,
+#results .rank-header {
+  width: 30px;
+  color: #ffffff;
+  background-color: #940707;
+  text-align: center;
+}
+
+a {
+  color: #940707;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8f8f8f;
+}
